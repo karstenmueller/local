@@ -18,10 +18,14 @@
 
 directory "#{node['local']['source_destination']}"
 
-link "#{ENV['USERPROFILE']}/source" do
+link "#{ENV['USERPROFILE']}/Source" do
   to "#{node['local']['source_destination']}"
 end
 
-link "#{ENV['USERPROFILE']}/Documents/WindowsPowerShell" do 
-  to "#{node['local']['source_destination']}/github/smurawski/sample-windowspowershell"
+link "#{ENV['USERPROFILE']}/Documents/WindowsPowerShell" do
+  to "#{node['local']['source_destination']}/github/karstenmueller/sample-windows/WindowsPowerShell"
+end
+
+link "#{ENV['USERPROFILE']}/Documents/Autohotkey" do
+  to "#{node['local']['source_destination']}/github/karstenmueller/sample-windows/Autohotkey"
 end
