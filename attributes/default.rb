@@ -1,6 +1,9 @@
 # override the create_profile setting from the winbox cookbook
 default['winbox']['create_profile'] = false
 
+# we want vscode
+default['winbox']['editor'] = :vscode
+
 # location of the source directory
 default['winbox-local']['source_destination'] = "c:/lb/source"
 

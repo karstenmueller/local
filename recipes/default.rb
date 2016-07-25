@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: local
+# Cookbook Name:: winbox-local
 # Recipe:: default
 #
 # Copyright 2015 Steven Murawski
@@ -19,10 +19,10 @@
 include_recipe 'git'
 # include_recipe 'winbox-local::repositories'
 # include_recipe 'winbox-local::links'
-# include_recipe 'winbox::chocolatey_install'
-# include_recipe 'winbox::powershell_dev'
-# include_recipe 'winbox::readline'
-# include_recipe 'winbox::editor'
-# include_recipe 'winbox::console'
+include_recipe 'winbox::chocolatey_install'
+include_recipe 'winbox::powershell_dev'
+include_recipe 'winbox::readline'
+include_recipe 'winbox::editor'
+include_recipe 'winbox::console'
 # include_recipe 'winbox::git'
 # include_recipe 'winbox-local::packages'

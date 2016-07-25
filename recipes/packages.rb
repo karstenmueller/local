@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: local
+# Cookbook Name:: winbox-local
 # Recipe:: packages
 #
 # Copyright 2015 Steven Murawski

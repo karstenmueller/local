@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: local
+# Cookbook Name:: winbox-local
 # Recipe:: repositories
 #
 # Copyright 2015 Steven Murawski
