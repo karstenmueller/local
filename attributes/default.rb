@@ -6,11 +6,12 @@ default['winbox-local']['source_destination'] = "c:/lb/source"
 
 # git repositories to start with
 default['winbox-local']['git_repos'] = {
-  'karstenmueller'         => ['sample-windows'],
+  'karstenmueller' => ['sample-windows'],
+  'mwrock' => ['packer-templates'],
 }
 
 # packages to install
-default['winbox-local']['packages'] = %w[7zip winmerge sysinternals autohotkey]
+default['winbox-local']['packages'] = %w[psake 7zip winmerge sysinternals autohotkey WindowsAzurePowershell WindowsAzureLibsForNet]
 
 # gems to install
 default['winbox-local']['gems'] = %w[kitchen-pester kitchen-hyperv kitchen-dsc pry]
