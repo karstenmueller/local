@@ -12,5 +12,5 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[local::default]
-    attributes: { local: { source_destination: "c:/source" } }
+      - recipe[winbox-local::default]
+    attributes: { winbox-local: { source_destination: "c:/lb/source" } }

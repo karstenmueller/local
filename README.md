@@ -3,6 +3,6 @@ Configures a local windows box. This is a wrapper Cookbook using winbox and samr
 
 ## Run it
 ~~~
-berks vendor cookbooks -b cookbooks/local/Berksfile
-chef-client -z -o 'local'
+berks vendor cookbooks
+chef-client -z -o 'winbox-local'
 ~~~
